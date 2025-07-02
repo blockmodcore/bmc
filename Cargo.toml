@@ -1,0 +1,39 @@
+[package]
+name = "bmc"
+version = "0.1.0"
+edition = "2024"
+authors = ["George (Alexey) Noise <160489890+George-Noise@users.noreply.github.com>"]
+repository = "change_me"
+license = "Apache-2.0 OR MIT"
+
+
+[profile.dev]
+opt-level = 0
+debug = true
+strip = "none"
+debug-assertions = true
+overflow-checks = true
+lto = false
+panic = 'unwind'
+incremental = true
+codegen-units = 256
+rpath = false
+
+[profile.release]
+opt-level = 3
+debug = false
+lto = true
+codegen-units = 1
+panic = 'abort'
+strip = true
+incremental = true
+debug-assertions = false
+overflow-checks = false
+
+[profile.test]
+opt-level = 0
+debug = true
+
+
+[dependencies]
+bevy = { version = "0.16.1", features = ["wayland"] }
