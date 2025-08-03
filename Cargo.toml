@@ -1,10 +1,19 @@
-[package]
-name = "bmc"
+[workspace]
+members = ["core", "chunk_generator"]
+resolver = "2"
+
+[workspace.package]
 version = "0.1.0"
 edition = "2024"
-authors = ["George (Alexey) Noise <160489890+George-Noise@users.noreply.github.com>"]
-repository = "change_me"
+authors = [
+    "George (Alexey) Noise <160489890+George-Noise@users.noreply.github.com>",
+]
 license = "Apache-2.0 OR MIT"
+repository = "https://github.com/blockmodcore/bmc"
+
+
+[workspace.dependencies]
+bevy = { version = "0.16.1", default-features = false }
 
 
 [profile.dev]
@@ -33,7 +42,3 @@ overflow-checks = false
 [profile.test]
 opt-level = 0
 debug = true
-
-
-[dependencies]
-bevy = { version = "0.16.1", features = ["wayland"] }

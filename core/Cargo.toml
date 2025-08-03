@@ -1,0 +1,12 @@
+[package]
+name = "core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+bevy = { workspace = true, default-features = true, features = ["wayland"]}
+chunk_generator = { path = "../chunk_generator" }
+# free_camera = { path = "../free_camera" }
