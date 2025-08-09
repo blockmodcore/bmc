@@ -22,7 +22,7 @@ cargo build --profile=release
 ```
 
 ## License
-[LICENSE](./LICENSE)
+[AGPL LICENSE](./LICENSE)
 
 
 ## Author
