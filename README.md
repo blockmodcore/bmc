@@ -23,6 +23,7 @@ cargo build --profile=release
 
 ## License
 [AGPL LICENSE](./LICENSE)
+If anyone wants a personal license, please email at george.noise.dev+bmclicense@gmail.com .
 
 
 ## Author
