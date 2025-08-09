@@ -22,7 +22,7 @@ cargo build --profile=release
 ```
 
 ## License
-[APACHE](./LICENSE-APACHE) | [MIT](./LICENSE-MIT)
+[LICENSE](./LICENSE)
 
 
 ## Author
