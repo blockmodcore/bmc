@@ -1,5 +1,22 @@
 # BlockModCore
-mc-like not-game, you need to install mods to play
+~~mc-like not-game, you need to install mods to play~~  
+just 3d chunk and cam control
+
+tested on NixOS (2025-12-28) and a little bit on W11
+
+
+## Dependencies
+
+- gcc
+- alsa-lib.dev
+- udev.dev
+- wayland.dev
+
+
+## Environment variables
+
+set PKG_CONFIG_PATH and LD_LIBRARY_PATH if needed,  
+my nixos home-manager configuration piece - [home.nix](./.doc/home.nix) for it
 
 
 ## Build and run
