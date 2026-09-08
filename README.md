@@ -47,7 +47,5 @@ Indie developers are welcome!
 
 ## Author
 - **Name**: George Noise
-- **Nickname**: VulpesDust
 - **Email**: george.noise.dev+github@gmail.com
-- **Alternate Email**: vulpesdust+github@gmail.com
 - **GitHub**: [George-Noise](https://github.com/George-Noise)
